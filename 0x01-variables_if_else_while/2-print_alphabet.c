@@ -2,18 +2,18 @@
 
 /**
  * main - Prints the alphabetic
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 
 {
-	char c;
+	char ch;
 
-	for (c = 'A'; c <= 'Z'; c++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
-	putchar(c);
-	putchar('\n');
+	ft_putchar(ch);
+	ft_putchar('\n');
 	}
 	return (0);
 
