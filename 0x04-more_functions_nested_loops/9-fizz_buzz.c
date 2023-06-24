@@ -2,13 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - prints the numbers from 1 to 100, followed by a new line
  *
- * description: prints the numbers 1 - 100 w/
  * Fizz for multiples of 3, Buzz for multiples of 5,
  * and FizzBuzz for multiples of both
  *
- * Return: Always 0
+ * Return: Always 0  (Success)
  */
 int main(void)
 {
